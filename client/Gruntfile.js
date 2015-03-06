@@ -452,7 +452,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer',
-      'configureProxies'
+      'configureProxies',
       'connect:livereload',
       'watch'
     ]);
@@ -468,7 +468,7 @@ module.exports = function (grunt) {
     'wiredep',
     'concurrent:test',
     'autoprefixer',
-    'configureProxies'
+    'configureProxies',
     'connect:test',
     'karma'
   ]);
